@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Room</string>
+    <string name="action_settings">Setting</string>
+
+    <string-array name="kelas">
+        <item>Manajemen Informatika</item>
+        <item>Informatika Komputer</item>
+        <item>Sistem Informasi</item>
+    </string-array>
+</resources>
