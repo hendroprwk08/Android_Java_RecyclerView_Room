@@ -43,7 +43,6 @@ public class MainActivity extends AppCompatActivity {
 
         et_cari = (EditText) findViewById(R.id.et_cari);
         bt_cari = (Button) findViewById(R.id.bt_cari);
-        //bt_refresh = (Button) findViewById(R.id.bt_refresh);
 
         //load data palsu
         //defineData();
@@ -54,8 +53,6 @@ public class MainActivity extends AppCompatActivity {
                 "db-siswa")
                 .allowMainThreadQueries()
                 .build();
-
-        //.bentuk database
 
         viewRecyclerView(null);
 
@@ -87,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
                         nama = met_nama.getText().toString();
                         kelas = msp_kelas.getSelectedItem().toString();
 
-                        //simpan data dan konversi ke List
+                        //simpan data
                         db.siswaDAO().insertAll(new Siswa(nama, kelas));
 
                         viewRecyclerView(null);
