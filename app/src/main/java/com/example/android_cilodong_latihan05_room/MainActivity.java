@@ -75,7 +75,6 @@ public class MainActivity extends AppCompatActivity {
                 met_nama = (EditText) view.findViewById(R.id.et_nama);
                 msp_kelas = (Spinner) view.findViewById(R.id.sp_kelas);
 
-
                 dialog.setPositiveButton("SIMPAN", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
