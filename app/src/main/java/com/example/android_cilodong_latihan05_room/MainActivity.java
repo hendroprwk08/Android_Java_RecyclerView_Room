@@ -44,9 +44,6 @@ public class MainActivity extends AppCompatActivity {
         et_cari = (EditText) findViewById(R.id.et_cari);
         bt_cari = (Button) findViewById(R.id.bt_cari);
 
-        //load data palsu
-        //defineData();
-
         //bentuk database
         db = Room.databaseBuilder(getApplicationContext(),
                 MyDatabase.class,
@@ -108,22 +105,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
-//        bt_refresh.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                viewRecyclerView(null);
-//            }
-//        });
     }
-
-//    private void defineData()
-//    {
-//        for (int i = 1; i < 5; i++) {
-//            siswaArrayList.add(new Siswa("Nama - "+ i, "Kelas - "+ i));
-//        }
-//    }
-
 
     @Override
     protected void onResume() {

@@ -40,15 +40,7 @@ public class Siswa {
         return nama;
     }
 
-    public void setNama(String nama) {
-        this.nama = nama;
-    }
-
     public String getKelas() {
         return kelas;
-    }
-
-    public void setKelas(String kelas) {
-        this.kelas = kelas;
     }
 }
