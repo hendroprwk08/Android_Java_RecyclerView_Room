@@ -29,14 +29,6 @@
             android:layout_weight="2"
             android:id="@+id/bt_cari"/>
 
-        <!--<Button-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:text="Refresh"-->
-            <!--android:background="@color/colorAccent"-->
-            <!--android:layout_weight="1"-->
-            <!--android:id="@+id/bt_refresh"/>-->
-
     </LinearLayout>
 
     <android.support.v7.widget.RecyclerView

@@ -25,10 +25,12 @@
         android:text="Kelas"
         android:layout_marginTop="10dp"/>
 
-    <EditText
-        android:id="@+id/det_et_kelas"
+    <Spinner
+        android:id="@+id/sp_det_kelas"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:entries="@array/kelas">
+    </Spinner>
 
     <LinearLayout
         android:layout_width="match_parent"
